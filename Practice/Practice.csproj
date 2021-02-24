@@ -42,6 +42,10 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\Chapter7\Chapter7.csproj">
+        <Project>{921deef9-04c7-49fc-8007-3362aa0e6596}</Project>
+        <Name>Chapter7</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Figure\Figure.csproj">
         <Project>{44f7c347-df66-4a98-8e47-bd8cd24c869c}</Project>
         <Name>Figure</Name>
