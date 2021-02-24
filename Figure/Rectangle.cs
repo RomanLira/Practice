@@ -28,5 +28,7 @@ namespace Figure
             double d = Length(_point4, _point1);
             return a+b+c+d;
         }
+        
+        // в методах Area() и Perimeter() дублируется нахождение длин сторон. Возможно, их стоит вынести за пределы методов.
     }
 }
